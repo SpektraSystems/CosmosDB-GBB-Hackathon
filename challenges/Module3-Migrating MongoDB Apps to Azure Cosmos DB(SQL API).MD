@@ -66,10 +66,12 @@ In this we will create Azure Function App.<br/>
 *	**Resource Group**: Choose Use Existing and select your available resource group
 *	**OS**: Windows
 *	**Hosting Plan**: Consumption Plan
+*   **Runtime Stack** : .Net
 *	**Location**: Location of your RG
-*	**Storage**: Click on **Create new**<br/>
+*	**Storage**: Click on **Use Existing**<br/>
+*   **Application Insights** : **Disable**
     Click on **Create**.<br/>
-    <img src="images/fnxinfo.jpg"/><br/>
+    <img src="images/function.jpg"/><br/>
 5. Click on **Go to Resource** Once provisioning is completed.<br/>
 <img src="images/functioncreated.jpg"/><br/>
 
