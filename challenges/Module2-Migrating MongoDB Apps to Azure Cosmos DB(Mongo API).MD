@@ -71,7 +71,7 @@ show collections
 * **Resource Group**: Choose **use existing** Resource Group.<br/>
  Click on **Create**.<br/>
 <img src="images/mongo1.jpg"/><br/>
-* Click on **Review and Create** button.
+* Click on **Review and Create** button.<br/>
 <img src="images/mongo2.jpg"/><br/>
 5. After deployment gets completed, click on **Go to resource** to verify that resource is successfully deployed.<br/>
 <img src="images/cosmosdb2.jpg"/><br/>
