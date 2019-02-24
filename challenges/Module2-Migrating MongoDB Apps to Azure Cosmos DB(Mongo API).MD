@@ -70,7 +70,9 @@ show collections
 * **API**: select **Mongo DB** from the dropdown.
 * **Resource Group**: Choose **use existing** Resource Group.<br/>
  Click on **Create**.<br/>
-<img src="images/cosmosdb1.jpg"/><br/>
+<img src="images/mongo1.jpg"/><br/>
+* Click on **Review and Create** button.
+<img src="images/mongo2.jpg"/><br/>
 5. After deployment gets completed, click on **Go to resource** to verify that resource is successfully deployed.<br/>
 <img src="images/cosmosdb2.jpg"/><br/>
 6. **Go to Connection String** and Copy all the parameters (Host, Port, Username, Password, Primary Connection String) in notepad for future use.<br/>
