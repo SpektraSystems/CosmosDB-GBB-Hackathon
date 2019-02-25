@@ -20,6 +20,13 @@
 https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi <br/>
 https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe <br/>
 http://downloads.datastax.com/datastax-ddc/datastax-ddc-64bit-3.9.0.msi <br/>
+10. If you face any issue while downloading please follow the following steps:(Optional)<br/>
+a. On right corner of your internet explore click on setting then select Internet options<br/>
+<img src="images/edge.jpg"/><br/>
+b. Select security option and choose custom policy.<br/>
+<img src="images/edge1.jpg"/><br/>
+c. Now, enable the following setting and click oK until you get back.<br/>
+<img src="images/edge2.jpg"/><br/>
 
 ## 1.2 Create a database account
 
