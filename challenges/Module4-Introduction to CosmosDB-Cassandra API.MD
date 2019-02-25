@@ -1,6 +1,28 @@
 # Introduction to CosmosDB-Cassandra API.md
 
-## 1. Create a database account
+#### 1.1 Access Windows VM 
+1.  **Launch** a browser and **navigate** to https://portal.azure.com. **Login** with your Microsoft Azure credentials.<br/>
+2.  Click on the **Virtual Machines** icon on the **Menu navigation bar**.<br/>
+<img src="images/virtualmachine.png"/><br/>
+3.  Click on the **Powerbivm**<br/>
+<img src="images/powerbivm.png"/><br/>
+4.  Click on **Connect** button. On clicking on Connect, the rdp file automatically gets downloaded. Open the downloaded file.<br/>
+<img src="images/connect.jpg"/><br/>
+5.  After Opening **RDP** file. In the remote desktop window that pops up, Click on **Connect**.<br/>
+<img src="images/connect2.jpg"/><bbr/>
+6.  Now go to the Lab details page, which you have recieved after launching the lab. Copy the VMs **username** and **password** and enter into Enter your credentials page. Click on **OK**<br/>
+<img src="images/entervmcreds.jpg"/><br/>
+7.  Click on **Yes** in the pop up window.<br/>
+<img src="images/yes.PNG"/><br/>
+8. Now you can access you virtual machine.
+<img src="images/dtui.jpg"/><br/>   
+9. Please download the following links and install them inside the virtual machine<br/>
+https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi
+http://downloads.datastax.com/datastax-ddc/datastax-ddc-64bit-3.9.0.msi
+10. Please download following file and save it in Drive C.
+https://experienceazure.blob.core.windows.net/software/cassandra-contacts.csv
+
+## 1.2 Create a database account
 
 Before you can create a document database, you need to create a Cassandra account with Azure Cosmos DB.
 
@@ -16,7 +38,7 @@ Before you can create a document database, you need to create a Cassandra accoun
 
 4. The account creation takes a few minutes. Wait for the portal to display the page saying Congratulations! Your Azure Cosmos DB account was created.<br/>
 
-## 2. Create Keysapce and Table 
+## 1.3. Create Keysapce and Table 
 
 You need to create a keyspace and table for inserting and querying the the data using CQL.
 
