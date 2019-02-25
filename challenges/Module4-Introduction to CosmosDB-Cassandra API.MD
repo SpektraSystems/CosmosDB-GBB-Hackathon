@@ -17,9 +17,9 @@
 8. Now you can access you virtual machine.
 <img src="images/dtui.jpg"/><br/>   
 9. Please download the following links and install them one by one inside the virtual machine<br/>
-https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi
-http://downloads.datastax.com/datastax-ddc/datastax-ddc-64bit-3.9.0.msi
-10. Please download following file and save it in Drive C.
+https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi <br/>
+http://downloads.datastax.com/datastax-ddc/datastax-ddc-64bit-3.9.0.msi <br/>
+10. Please download following file and save it in Drive C.<br/>
 https://experienceazure.blob.core.windows.net/software/cassandra-contacts.csv
 
 ## 1.2 Create a database account
