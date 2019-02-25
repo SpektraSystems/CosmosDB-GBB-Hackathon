@@ -18,6 +18,7 @@
 <img src="images/dtui.jpg"/><br/>   
 9. Please download the following links and install them one by one inside the virtual machine<br/>
 https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi <br/>
+https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe <br/>
 http://downloads.datastax.com/datastax-ddc/datastax-ddc-64bit-3.9.0.msi <br/>
 10. Please download following file and save it in Drive C.<br/>
 https://experienceazure.blob.core.windows.net/software/cassandra-contacts.csv
