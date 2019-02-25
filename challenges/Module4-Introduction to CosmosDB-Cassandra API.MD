@@ -68,7 +68,7 @@ cqlsh.py <CONTACT POINT> -u <USERNAME> 10305 -p <PRIMARY PASSWORD> --ssl --cqlve
 6. Use following command to uploading data to azure cosmos db:<br/>
 
 ```
-COPY info.address FROM 'cassandra-contacts.csv' WITH DELIMITER=',' AND HEADER=TRUE;
+COPY info.address FROM 'C:\cassandra-contacts.csv' WITH DELIMITER=',' AND HEADER=TRUE;
 ```
 <img src="images/copy.jpg"/><br/>
 
