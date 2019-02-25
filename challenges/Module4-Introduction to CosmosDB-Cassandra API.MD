@@ -62,7 +62,7 @@ set SSL_VALIDATE=false
 5. Run the following command for connecting to Azure cosmos Cassandra API.<br/>
 
 ```
-cqlsh.py <CONTACT POINT> -u <USERNAME> -p <PRIMARY PASSWORD> --ssl --cqlversion=3.4.4
+cqlsh.py <CONTACT POINT> -u <USERNAME> 10305 -p <PRIMARY PASSWORD> --ssl --cqlversion=3.4.4
 ```
 <img src="images/cqlsh7.jpg"/><br/>
 6. Use following command to uploading data to azure cosmos db:<br/>
