@@ -66,10 +66,12 @@ In this we will create Azure Function App.<br/>
 *	**Resource Group**: Choose Use Existing and select your available resource group
 *	**OS**: Windows
 *	**Hosting Plan**: Consumption Plan
+*   **Runtime Stack** : .Net
 *	**Location**: Location of your RG
-*	**Storage**: Click on **Create new**<br/>
+*	**Storage**: Click on **Use Existing**<br/>
+*   **Application Insights** : **Disable**
     Click on **Create**.<br/>
-    <img src="images/fnxinfo.jpg"/><br/>
+    <img src="images/function.jpg"/><br/>
 5. Click on **Go to Resource** Once provisioning is completed.<br/>
 <img src="images/functioncreated.jpg"/><br/>
 
@@ -79,11 +81,12 @@ In this we will create Azure Function App.<br/>
 
 1. Go to **Resource groups** option present in the favourites menu on the left side panel and select the resource group **<inject story-id="story://Content-Private/content/dfd/SP-GDA/gdaexpericence1/story_a_gda_using_cosmosdb" key="myResourceGroupName"/>** and click on Azure Function named **<inject story-id="story://Content-Private/content/dfd/SP-GDA/gdaexpericence1/story_a_gda_using_cosmosdb" key="azureFunctionName"/>**.<br/>
 2. However over the **Functions** under **Functions Apps** and click on **+ sign** besides **Functions**.<br/>
-3. Now, click on the **Custom function** link present at the bottom of the page.<br/>
-<img src="images/GetStartedOnYourOwn.jpg"/><br/>
-4. Click on **C#** template available in **HTTP trigger** section and name the function as "**FetchDealsData**" in **Name** textbox and click **Create** button.<br/>
-<img src="images/httptrigger.jpg"/><br/>
-<img src="images/httpvalue.jpg"/><br/>
+3. Now, click on the **+ New function** link present at page.<br/>
+<img src="images/function2.jpg"/><br/>
+4. Choose a deployment enviroment as **In Portal** and click on **continue**.<br/>
+<img src="images/function3.jpg"/><br/>
+* Select **Webhook + API** and clinc on create button.<br/>
+<img src="images/function4.jpg"/><br/>
 5. A function with sample default code would get created. Now, replace the sample default code with the code snippet given below.<br/>
 
     ```c#
