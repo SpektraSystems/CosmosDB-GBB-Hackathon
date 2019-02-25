@@ -41,15 +41,13 @@ c. Query :<br/>
 
 ## 3. Upload and Query sample data using cql
 
-1.	Launch Windows RDP and Download CSV from https://experienceazure.blob.core.windows.net/software/cassandra-contacts.csv.
+1.	Launch Command Promote as Administrator.
 
-2.	Launch Command Promote as Administrator.
-
-3. Change the directory using folowing command: <br/>
+2. Change the directory using folowing command: <br/>
 ```
 cd C:\Program Files\DataStax-DDC\apache-cassandra\bin
 ```
-4. Run the following commands for SSL certification <br/>
+3. Run the following commands for SSL certification <br/>
 ```
 set SSL_VERSION=TLSv1_2
 set SSL_VALIDATE=false
@@ -57,24 +55,24 @@ set SSL_VALIDATE=false
 ```
 <img src="images/ssl.jpg"/><br/>
 
-5. Go to Azure cosmos db, select the connection string and copy **CONTACT POINT**, **USERNAME** and **PRIMARY PASSWORD**. Paste these values for use in Notepad.<br/>
+4. Go to Azure cosmos db, select the connection string and copy **CONTACT POINT**, **USERNAME** and **PRIMARY PASSWORD**. Paste these values for use in Notepad.<br/>
 
 <img src="images/cassandra1.jpg"/><br/>
 
-6. Run the following command for connecting to Azure cosmos Cassandra API.<br/>
+5. Run the following command for connecting to Azure cosmos Cassandra API.<br/>
 
 ```
 cqlsh.py <CONTACT POINT> -u <USERNAME> -p <PRIMARY PASSWORD> --ssl --cqlversion=3.4.4
 ```
 <img src="images/cqlsh7.jpg"/><br/>
-7. Use following command to uploading data to azure cosmos db:<br/>
+6. Use following command to uploading data to azure cosmos db:<br/>
 
 ```
 COPY info.address FROM 'cassandra-contacts.csv' WITH DELIMITER=',' AND HEADER=TRUE;
 ```
 <img src="images/copy.jpg"/><br/>
 
-8. Launch the Azure Portal, go to your azure cosmos db account, select Data Explorer and refresh the data. You will see that the data has been uploaded.<br/>
+7. Launch the Azure Portal, go to your azure cosmos db account, select Data Explorer and refresh the data. You will see that the data has been uploaded.<br/>
 
 <img src="images/cqlsh2.jpg"/><br/>
 8. Click on Rows > CQL Query Text and Click Run<br/>
