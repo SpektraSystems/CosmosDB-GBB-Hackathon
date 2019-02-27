@@ -16,23 +16,20 @@
 <img src="images/yes.PNG"/><br/>
 8. Now you can access you virtual machine.
 <img src="images/dtui.jpg"/><br/>   
-9. Follow the given steps to Install Python 2.7 version for cassandra migration<br/>
+9. Follow the given steps to Install Python 2.7 version for cassandra migration
   
   a. Go to C drive, select Pyhton27 Folder and click on python-2.7.15.amd64.msi.<br/> 
   <img src="images/python1.jpg"/><br/> 
-  b. select “Install for all users,” and then click “Next.”<br/> <br/> 
+  b. select “Install for all users,” and then click “Next.”<br/>
   <img src="images/python4.jpg"/><br/> 
   c. Click "yes" if pop-up come and then press next button<br/>
   <img src="images/python2.jpg"/><br/> 
   d. On the directory selection screen, leave the directory as “Python27” and click “Next.”<br/> 
-  <img src="images/python3.jpg"/><br/> 
-  e. Then the following will show up. Make sure to click Next.<br/> <br/> 
-  <img src="images/python5.jpg"/><br/> 
-  f. Once the above step is completed, the installation of the official Python 2.7.11 interpreter will start on your Windows machine<br/> 
-  <img src="images/python6.jpg"/><br/> 
-  g.When the setup is close to the finish, just click the Finish button like shown below.<br/> 
-  <img src="images/python7.jpg"/><br/> 
-
+  <img src="images/python3.jpg"/><br/>
+  e. Once the above step is completed, the installation of the official Python 2.7.11 interpreter will start on your Windows machine<br/> 
+  f.When the setup is close to the finish, just click the Finish button like shown below.<br/>  
+  <img src="images/python5.jpg"/><br>
+  
 10. Follow the given step for installing Datastax Cassandra Community :
 
    a. Go to C drive > Program files > DataStax-DDC and select the datastax-ddc-64bit file.
