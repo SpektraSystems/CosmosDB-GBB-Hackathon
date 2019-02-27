@@ -16,7 +16,7 @@
 <img src="images/yes.PNG"/><br/>
 8. Now you can access you virtual machine.
 <img src="images/dtui.jpg"/><br/>
-9. Please download following links one by one.
+9. Please download following links one by one.<br/>.
 https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi<br/>
 https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe<br/>
 http://downloads.datastax.com/datastax-ddc/datastax-ddc-64bit-3.9.0.msi<br/>
