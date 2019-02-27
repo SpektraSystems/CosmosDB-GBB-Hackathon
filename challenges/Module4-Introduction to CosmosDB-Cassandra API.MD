@@ -21,7 +21,7 @@ https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi<br/>
 https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe<br/>
 http://downloads.datastax.com/datastax-ddc/datastax-ddc-64bit-3.9.0.msi<br/>
 
-10. Please following step in case you are unable to downloads links: (Optional)
+10. Please follow given steps in case you are unable to downloads links: **(Optional)**
  
  a. Open **Internet Explore**, click on setting button and the select **Internet Option**.<br/>
  <img src="images/edge1.jpg"/><br/>
