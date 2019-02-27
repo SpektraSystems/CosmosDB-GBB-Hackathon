@@ -16,18 +16,39 @@
 <img src="images/yes.PNG"/><br/>
 8. Now you can access you virtual machine.
 <img src="images/dtui.jpg"/><br/>   
-9. Please download the following links and install them one by one inside the virtual machine<br/>
-https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi <br/>
-https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe <br/>
-http://downloads.datastax.com/datastax-ddc/datastax-ddc-64bit-3.9.0.msi <br/>
+9. Follow the given steps to Install Python 2.7 version for cassandra migration<br/>
+  
+  a. Go to C drive, select Pyhton27 Folder and click on python-2.7.15.amd64.msi.<br/> 
+  <img src="images/python1.jpg"/><br/> 
+  b. select “Install for all users,” and then click “Next.”<br/> <br/> 
+  <img src="images/python4.jpg"/><br/> 
+  c. Click "yes" if pop-up come and then press next button<br/>
+  <img src="images/python2.jpg"/><br/> 
+  d. On the directory selection screen, leave the directory as “Python27” and click “Next.”<br/> 
+  <img src="images/python3.jpg"/><br/> 
+  e. Then the following will show up. Make sure to click Next.<br/> <br/> 
+  <img src="images/python5.jpg"/><br/> 
+  f. Once the above step is completed, the installation of the official Python 2.7.11 interpreter will start on your Windows machine<br/> 
+  <img src="images/python6.jpg"/><br/> 
+  g.When the setup is close to the finish, just click the Finish button like shown below.<br/> 
+  <img src="images/python7.jpg"/><br/> 
 
-10. If you face any issue while downloading please follow the following steps:**(Optional)**<br/>
-  a. On right corner of your internet explore click on **Setting** then select **Internet options**<br/>
-     <img src="images/edge1.jpg"/><br/>
-  b. Select **Security** option and choose **custom policy**.<br/>
-     <img src="images/edge2.jpg"/><br/>
-  c. Now, enable the following setting and click **OK** until you get back.<br/>
-     <img src="images/edge3.jpg"/><br/>
+10. Follow the given step for installing Datastax Cassandra Community :
+
+   a. Go to C drive > Program files > DataStax-DDC and select the datastax-ddc-64bit file.
+   <img src="images/data1.jpg"/><br/> 
+   b. Run the Datastax community edition setup. After running the Setup, following page will be displayed. Click on next.<br/>
+   <img src="images/data2.jpg"/><br/> 
+   c. This page is about the license agreement. Mark the checkbox and press the next button.<br/>
+   <img src="images/data3.jpg"/><br/> 
+   d. this page is for installation location do not make any changes, press the 'next' button.<br/>
+   <img src="images/data4.jpg"/><br/> 
+   e. Mark the checkboxes for automatically start Cassandra and press next button.<br/>
+   <img src="images/data5.jpg"/><br/> 
+   f. Setup has collected all the necessary information and now the setup is ready to install. Press install button.<br/>
+   <img src="images/data6.jpg"/><br/> 
+   g. After installation is completed, click on next button. When setup is installed successfully, press the 'Finish' button.<br/>
+   <img src="images/data7.jpg"/><br/> 
 
 ## 1.2 Create a database account
 
