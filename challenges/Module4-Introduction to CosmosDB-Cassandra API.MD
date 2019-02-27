@@ -23,7 +23,7 @@
   <img src="images/python1.jpg"/><br/> 
   b. Select **Install for all users**, and then click **Next**.<br/>
   <img src="images/python4.jpg"/><br/> 
-  c. Click "yes" if pop-up come and then press **next** button<br/>
+  c. Click **yes** if pop-up come and then press **next** button<br/>
   <img src="images/python2.jpg"/><br/> 
   d. On the directory selection screen, leave the directory as **Python27** and click **Next**.<br/> 
   <img src="images/python3.jpg"/><br/>
