@@ -24,7 +24,7 @@ http://downloads.datastax.com/datastax-ddc/datastax-ddc-64bit-3.9.0.msi<br/>
 10. Please following step in case you are unable to downloads links: (Optional)
  
  a. Open **Internet Explore**, click on setting button and the select **Internet Option**.<br/>
- <img src="images/edge.jpg"/><br/>
+ <img src="images/edge1.jpg"/><br/>
  b. Select **Security** and choose **Custom Settings**.<br/>
  <img src="images/edge2.jpg"/><br/>
  c. Enable the following settings and click on **OK** until you get back to **Internet Explore**.<br/>
@@ -58,7 +58,6 @@ http://downloads.datastax.com/datastax-ddc/datastax-ddc-64bit-3.9.0.msi<br/>
    f. Setup has collected all the necessary information and now the setup is ready to install. Press **install** button.<br/>
    <img src="images/data6.jpg"/><br/> 
    g. After installation is completed, click on next button. When setup is installed successfully, press the **Finish** button.<br/>
-
 
 
 ## 1.2 Create a database account
